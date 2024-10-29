@@ -1,40 +1,40 @@
 {
     "cardContent":[
         { "id":1,
-            "title":"Insieme si può!",
-            "descShort":"Insieme si può è il nuovo progetto della regione Campania per il recupero di migliaia di formiche tossicodipendenti! Partecipa anche tu alla lotta contro gli zuccheri semplici e i milkshake!",
-            "descLong":"Inserire descrizione lunga qui.",
-            "image":"Inserire eventuale link immagine qui"
+            "title":"Saccar-ozio",
+            "descShort":"Programma di recupero formiche tossicodipendenti.",
+            "descLong":"Il nostro nuovo progetto per il recupero di migliaia di formiche tossicodipendenti! Ogni anno, la piaga degli zuccheri semplici miete miliardi di vittime fra le formiche di tutte il mondo. Rosse, nere, porpora, tutte hanno voltato le zampe al proprio formicaio per inseguire lo sballo, a seguito di burnout. Noi gli forniamo un fornicaio in cui l'astinenza da zuccheri semplici si lega alla semplice vita pastorale, in attesa di un reinserimento nelle rispettive comunità.",
+            "image":"../images/Saccar-ozio.jpg"
         },
         { "id":2,
-            "title":"Insieme si può!",
-            "descShort":"Insieme si può è il nuovo progetto della regione Campania per il recupero di migliaia di formiche tossicodipendenti! Partecipa anche tu alla lotta contro gli zuccheri semplici e i milkshake!",
-            "descLong":"Inserire descrizione lunga qui.",
-            "image":"Inserire eventuale link immagine qui"
+            "title":"Senza macchia",
+            "descShort":"Manifattura equa e solidale di spazzole specializzate nello smacchiamento delle giraffe africane.",
+            "descLong":"Sapete quanto è difficile smacchiare delle giraffe? Molto. E le giraffe del Programma Protezione Testimoni hanno urgente bisogno di alterare il proprio manto per sfuggire alle persecuzioni che soffrono a causa di un peccato, per loro, capitale: l'onestà. Grazie ad un piccolo contributo, potrete supportare la nostra impresa, che fornisce spazzole speciali per lo smacchiamento giraffe al DOJ, e contribuirete al normale corso della giustizia nei confronti della mafia dei babbuini.",
+            "image":"../images/Senza-macchia.jpg"
         },
         { "id":3,
-            "title":"Insieme si può!",
-            "descShort":"Insieme si può è il nuovo progetto della regione Campania per il recupero di migliaia di formiche tossicodipendenti! Partecipa anche tu alla lotta contro gli zuccheri semplici e i milkshake!",
-            "descLong":"Inserire descrizione lunga qui.",
-            "image":"Inserire eventuale link immagine qui"
+            "title":"Fabri Fibre",
+            "descShort":"Fondo popolare per la raccolta e il recupero di abiti molto usati.",
+            "descLong":"Non puoi più rattoppare i tuoi pantaloni? I tuoi calzini fanno corrente? Le tue camicie ti ricordano ormai la nave di Teseo? Non temere! Il nostro centro accetta donazioni. Puoi donare di tutto, anche vestiti non tuoi: conosciamo chi ne farà un uso migliore. Il progetto è co-finanziato dall'Associazione Tarme Antropomorfe.",
+            "image":"../images/Fabri-Fibre.jpg"
         },
         { "id":4,
-            "title":"Insieme si può!",
-            "descShort":"Insieme si può è il nuovo progetto della regione Campania per il recupero di migliaia di formiche tossicodipendenti! Partecipa anche tu alla lotta contro gli zuccheri semplici e i milkshake!",
-            "descLong":"Inserire descrizione lunga qui.",
-            "image":"Inserire eventuale link immagine qui"
+            "title":"Mani-golden",
+            "descShort":"Corso di onicotecnica per detenute.",
+            "descLong":"Grazie al nostro partner McKinney & friends, abbiamo lanciato un corso professionalizzante per le detenute del carcere di Sant'Agapito, il Santo dal pugno proibito. Le future reprobe imparano l'antica arte del costruire unghie solide, dall'aspetto affilato e sicuramente non utilizzabili a fini violenti. Il corso rilascia un certificato con cui le nostre ragazze, una volta fuori dal carcere, potranno avviare un'attività in proprio con la facoltà di rilasciare fattura.",
+            "image":"../images/Mani-golden.jpg"
         },
         { "id":5,
-            "title":"Insieme si può!",
-            "descShort":"Insieme si può è il nuovo progetto della regione Campania per il recupero di migliaia di formiche tossicodipendenti! Partecipa anche tu alla lotta contro gli zuccheri semplici e i milkshake!",
-            "descLong":"Inserire descrizione lunga qui.",
-            "image":"Inserire eventuale link immagine qui"
+            "title":"Reservoir hogs",
+            "descShort":"Raccolta fondi finalizzata alla rieducazione di cinghiali.",
+            "descLong":"Progetto nato nel contesto capitolino, Reservoir hogs si propone di lanciare corsi, ogni anno, per l'istruzione dei cinghiali (sus scrofa) su argomenti quali la viabilità, l'attraversamento pedonale, la civica convivenza e il dolce stil novo. Il bilancio lascia poco spazio ai dubbi: dal lancio del progetto, 200 nostri studenti hanno migliorato considerevolmente il loro traffico, e ben 20 hanno preso casa a San Lorenzo e si sono iscritti al CdL di Letteratura Moderna a La Sapienza.",
+            "image":"../images/Reservoir-Hogs.jpg"
         },
         { "id":6,
-            "title":"Insieme si può!",
-            "descShort":"Insieme si può è il nuovo progetto della regione Campania per il recupero di migliaia di formiche tossicodipendenti! Partecipa anche tu alla lotta contro gli zuccheri semplici e i milkshake!",
-            "descLong":"Inserire descrizione lunga qui.",
-            "image":"Inserire eventuale link immagine qui"
+            "title":"Cereal killers",
+            "descShort":"Ricerca sull'intersezione tra fiocchi d'avena ed eutanasia.",
+            "descLong":"Grazie agli sforzi della dottoressa Yeleva Tida Elkazeau, questo progetto di ricerca studia da anni la correlazione tra il consumo di fiocchi d'avena in tutte le loro forme (integrali, biscottati, etc.) con la tendenza a ricorrere alla dolce morte in caso di malattie degenerative o fatali quali, per esempio, le unghie incarnite. I risultati della ricerca finora sono pubblicati su JSTOR, e dimostrano almeno una chiara tendenza a lasciare questa valle di lacrime da parte di chi consuma un quantitativo moderato di porridge al mattino.",
+            "image":"../images/Cereal-Killers.jpg"
         }
     ]
 }
