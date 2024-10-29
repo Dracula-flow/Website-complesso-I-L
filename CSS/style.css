@@ -101,4 +101,27 @@ background-size: cover;
 width: 3rem;
 height: 3rem;
 }
-  
+
+
+
+/* Stile per l'animazione dell'icona */
+.toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon.rotated {
+  transform: rotate(180deg);
+}
+
+/* Animazione per il contenitore dei progetti aggiuntivi */
+#additional-projects {
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+#additional-projects.show {
+  opacity: 1;
+  max-height: 2000px;
+}
