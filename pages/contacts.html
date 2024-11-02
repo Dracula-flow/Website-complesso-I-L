@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    <nav>
+        <header class="p-1 text-bg-warning">
+          <div class="container">
+            <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 border-bottom">
+            
+            <div class="d-flex justify-content-center py-2">
+              <a href="/"
+                class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" width="20" height="20" role="img"
+                aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+              
+              <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              
+                <a id ="btn" href="../index.html" class="btn btn-secondary me-2 " 
+                class="btn btn-secondary">Home</a>
+                
+                <a id ="btn" href="./projects.html"
+                class="btn btn-secondary me-2">Progetti</a>
+                
+                <a id ="btn" href="./contacts.html"
+                class="btn btn-secondary me-2">Contatti</a>
+                
+              </ul>
+            </div>
+            <div class="text-end">
+              <div  class="col-md-3 text-end">
+                <a id ="btn" href="./login.html"
+                class="btn btn-secondary me-2">Login</a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </nav>
+      <br>
+    
+    <main>
+        <!-- Sezione mappa e contatti -->
+        <section id="map&content">
+            <div class="container">
+                <div class="row justify-content-evenly">
+                    <div id="map" class="col my-5 mx-5 align-self-center" style="height: 25rem; width: 25rem"></div>
+                    <div id="contacts" class=" col my-5 mx-5 align-self-start" style="width:fit-content"> 
+                        <h2>Contattaci!</h2>
+                        <p>Indirizzo: Via Catania, 57a, 10153, Torino (TO);</p>
+                        <p>Telefono: 555-123456;</p>
+                        <p>Orari: dal Lunedì al Venerdì, 09:00-18:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formContacts">
+            <div class="container mb-5">
+                <div class="row justify-content-center align-items-center">
+                    <form class="bg-secondary mt-3 border border-5 rounded-3" style="width: 32rem;">
+                        <div class="mb-3">
+                            <label for="heading" class="form-label mx-3 my-3 text-white" style="font-size: larger;">Oppure scrivici un messaggio!</label>
+                       </div>
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label mx-3 text-white">Indirizzo e-mail</label>
+                            <input type="email" class="form-control w-75" id="inputEmail" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text mx-3 text-white">Non condivideremo la tua mail con nessun altro.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputName" class="form-label mx-3 text-white">Nome e Cognome</label>
+                            <input type="text" class="form-control w-75" id="inputName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputMessage" class="form-label mx-3 text-white">Il tuo messaggio:</label>
+                            <input type="text" class="form-control w-75" style="height: 8rem;" id="inputMessage">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input mx-3" id="exampleCheck1">
+                        <label class="form-check-label text-white" for="exampleCheck1">Autorizzo al trattamento dei miei dati personali.</label>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button type="submit" class="btn btn-primary w-25 p-1 mb-2">Invia</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </section>
+        
+    </main>
+    
+<footer class="footer fixed-bottom bg-secondary">
+            <div class="container-fluid text-center">
+                <span class="text-white">
+                    Inuthilithè, 2024. All Rights Reserved.
+                </span>
+            </div>
+        </footer>
+
+    <script src="../js/scriptContacts.js"></script>
+    
+</body>
+</html>
