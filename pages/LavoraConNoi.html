@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lavora con noi</title>
+    </head>
+
+    <!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unisciti al nostro Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form class="needs-validation" action="grazie.page.html" method="GET" novalidate>
+                    <!-- Header -->
+                    <div class="text-center mb-4">
+                        <h2 class="met">Unisciti al nostro Team</h2>
+                        <p class="text-muted">Compila in modo accurato il modulo sottostante per unirti a noi.</p>
+                    </div>
+
+                    <!-- Name Fields -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Cognome</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" 
+                               placeholder="esempio@esempio.com" required>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="mb-3">
+                        <label class="form-label">Indirizzo</label>
+                        <input type="text" class="form-control mb-2" placeholder="Via Indirizzo 1" required>
+                        <input type="text" class="form-control mb-2" placeholder="Via Indirizzo 2">
+                        
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Città" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Regione / Provincia" required>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="CAP" required>
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-select" required>
+                                    <option value="">Seleziona Paese</option>
+                                    <option value="Italy">Italia</option>
+                                    <!-- Note: Full country list omitted for brevity but should be included in production -->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="areaCode" class="form-label">Prefisso</label>
+                            <input type="tel" class="form-control" id="areaCode" required>
+                        </div>
+                        <div class="col-md-8">
+                            <label for="phoneNumber" class="form-label">Numero di Telefono</label>
+                            <input type="tel" class="form-control" id="phoneNumber" required>
+                        </div>
+                    </div>
+
+                    <!-- Vocal Range -->
+                    <div class="mb-4">
+                        <label for="cvUpload" class="form-label">Carica il tuo CV</label>
+                        <input type="file" class="form-control" id="cvUpload" accept=".pdf,.docx" required>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Candidati</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <style>
+        .container{
+            background-color:beige !important;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Form validation script -->
+    <script>
+        (function () {
+    'use strict'
+    var forms = document.querySelectorAll('.needs-validation')
+    Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                event.preventDefault()
+                if (form.checkValidity()) {
+                    window.location.href = './grazie.page.html'
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
+})()
+    </script>
+</body>
+</html>
+</html>
