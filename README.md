@@ -1,27 +1,22 @@
+# TERMINATO
 # Website-complesso-I-L
 Un progetto assegnato nell'ambito del corso di Tecniche di sviluppo Python 2024
 Code by Martina, Lorenzo, Simone.
 
-Primo step: HTML ed estetica principale tramite bootstrap.
-Tasto home da incorporare nel logo della navbar.
+# Traccia
 
-Secondo step: db.json, definizione contenuti.
+Costruire un sito che poggi su un db.json e abbia un carosello in homepage, una sezione progetti espandibile tramite pulsante e una sezione contatti che includa una mappa (consigliato Leaflet).
 
-Terzo step: script JS
+Altre specifiche minori nel documento originale.
 
-Ultime cose: Sezione contatti, libreria Leaflet per la mappa e il meteo, + accessori e CSS, banner cookie Accetta-Rifiuta-Controlla i termini.
+# Caratteristiche
 
-Dizionario JS da concordare, per adesso tutto commentato. 
+Il sito è HTML-Heavy, data l'abbondanza di contenuti statici e la decisione di mantenere il programma abbastanza leggero.
+Lo script JS è dedicato agli elementi dinamici (pulsanti, generazione card, chiamate fetch) e all'inclusione della mappa tramite Leaflet.
+Il db.json contiene i dati che vengono poi inseriti nella pagina Progetti e relativa Landing page.
+La navbar linka alle principali pagine, compresa la sezione login (puramente estetica).
 
-# HTML e bootstrap
-Ogni pagina avrà una navbar e un footer.
-
-Pagina home= Carousel con bootstrap per foto presentazione azienda + eventuale link a progetti, secondo livello heading con foto nostre(avatar o altro) e sezione "candidati" al fondo (foto 400x300)  con sezione sempre presa dal carousel terzo livello, form accanto per l'inserimento dati.. Footer al fondo puramente decorativo.
-
-Pagina progetti = i requisiti sono 3 card mostrate di default + 3 card "nascoste" in una sezione "Scopri di più". Le card sono formattate con boostrap examples/features: custom cards, testo all'interno + altre informazioni. Importante definire la struttura. Una volta cliccato sul progetto, si viene riportati alla pagina html che verrà riempita dallo script js in base ai contenuti corrispondenti del db. La landing page dei prodotti sarà formattata secondo il bootstrap examples/product, grande banner sopra che fa da heading + 1/2 sottosezioni per descrizione servizio/prodotto.
-
-Pagina Contatti = Mappa, form contatti semplice con principali info, magari meteo.
-
-# JS 
-
-Funzioni e chiamate FETCH a manetta: dati dei progetti dal db.json. Link Altri progetti è un bottone che richiama la funzione per creare le card, ma i dati saranno presi da altre voci del database.
+## Requisiti
+- Json-Server per l'inizializzazione (se installato, inserire nel terminale la stringa json-server ./db/db.json);
+- Le immagini della cartella in repo;
+- Tanta pazienza per i contenuti del sito;
