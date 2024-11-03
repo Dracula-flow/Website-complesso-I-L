@@ -57,13 +57,13 @@ function creaCard(entry) {
     
     card.innerHTML = `
     <div class="col h-100" data-card-id="${entry.id}">
-        <div class="card card-cover overflow-hidden rounded-4 shadow-lg" style="background-image: url('${entry.image}');">
-            <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
+        <div class="card h-100 card-cover overflow-hidden rounded-4 shadow-lg d-flex flex-column " style="background-image: url('${entry.image}');">
+            <div class="d-flex flex-column p-5 pb-2 h-100 text-white text-shadow-1">
                 <h3 class="mb-4 display-6 lh-1 fw-bold">${entry.title}</h3>
-                <p class="flex-grow-1 pb-3">${entry.descShort}</p>
-                <ul class="d-flex list-unstyled mt-auto">
+                <p class="flex-grow-1">${entry.descShort}</p>
+                <ul class="d-flex list-unstyled mb-4 position-absolute bottom-0">
                     <li class="d-flex align-items-center">
-                        <button class="btn btn-primary rounded-pill px-3 btn-altro" type="button">Altro...</button>
+                        <button class="btn btn-primary rounded-pill px-4 btn-altro" type="button">Altro...</button>
                     </li>
                 </ul>
             </div>
@@ -103,7 +103,7 @@ function setupCardButtons() {
     });
 }
 
-// Script per gestire il toggle dei progetti aggiuntivi
+// Script per gestire il bottone dei progetti aggiuntivi
 document.addEventListener('DOMContentLoaded', function() {
     loadCards();
     

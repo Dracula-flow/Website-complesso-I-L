@@ -102,7 +102,9 @@ width: 3rem;
 height: 3rem;
 }
 
-
+.card {
+  min-height: 290px; /* Altezza minima per tutte le card */
+}
 
 /* Stile per l'animazione dell'icona */
 .toggle-icon {
@@ -159,9 +161,82 @@ height: 3rem;
   background-color: #0056b3;
 }
 
-#imgProj{
-  background-attachment: 'fixed';
-  background-repeat: 'no-repeat';
-  background-size: 'cover';
-  background-position: 'center';
+body, html{
+    height: 100%;
+}
+
+.parallax-section {
+  /* Impostazioni base */
+  background-image: 75%;
+  position: relative;
+  min-height: 500px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+  /* Impostazioni parallasse */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Altri stili */
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Overlay scuro per migliorare la leggibilità del testo */
+.parallax-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+/* Assicurati che il contenuto sia sopra l'overlay */
+.parallax-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Stile per la sezione di scroll */
+.scroll-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 12rem;
+  overflow-x: hidden; /* Previene scroll orizzontale durante l'animazione */
+}
+
+/* Animazione slide-up */
+.slide-up {
+  opacity: 0.97; /* Elemento sempre visibile */
+}
+
+/* Stili migliorati per projTitle */
+#projTitle {
+  background: linear-gradient(145deg, #1a1a1a, #bd9a3a);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projTitle:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(184, 24, 24, 0.4);
+}
+
+#descLong {
+  background: linear-gradient(to bottom right, rgba(63, 92, 146, 0.95), rgba(40, 89, 153, 0.95));
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+#descLong:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
