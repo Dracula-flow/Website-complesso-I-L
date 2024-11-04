@@ -217,18 +217,18 @@ body, html{
 
 /* Stili migliorati per projTitle */
 #projTitle {
-  background: linear-gradient(145deg, #1a1a1a, #bd9a3a);
+  background: linear-gradient(145deg, #ebe5d7, #dac17d);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #projTitle:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(184, 24, 24, 0.4);
+  box-shadow: 0 12px 40px rgba(255, 192, 76, 0.4);
 }
 
 #descLong {
-  background: linear-gradient(to bottom right, rgba(63, 92, 146, 0.95), rgba(40, 89, 153, 0.95));
+  background: linear-gradient(to bottom right, rgba(56, 50, 50, 0.95), rgba(27, 29, 32, 0.95));
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
@@ -259,7 +259,7 @@ body, html{
   object-fit: cover; 
 }
 .card {
- 
+  min-height: 290px;
   margin-left: 0 10px; 
   text-shadow: 1px 1px;
   border: solid;
