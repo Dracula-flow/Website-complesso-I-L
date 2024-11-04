@@ -61,7 +61,7 @@ function creaCard(entry) {
             <div class="d-flex flex-column p-5 pb-2 h-100 text-white text-shadow-1">
                 <h3 class="mb-4 display-6 lh-1 fw-bold">${entry.title}</h3>
                 <p class="flex-grow-1 text-center rounded-3 text-dark" style="background-color: beige;">${entry.descShort}</p>
-                <ul class="d-flex list-unstyled mb-4 mt-3">
+                <ul class="d-flex list-unstyled mb-4 position-absolute bottom-0">
                     <li class="d-flex align-items-center">
                         <button class="btn btn-primary rounded-pill px-4 btn-altro" type="button">Altro...</button>
                     </li>
